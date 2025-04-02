@@ -1,5 +1,5 @@
 {% set name = "djangocms-link" %}
-{% set version = "5.0.0" %}
+{% set version = "5.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/djangocms_link-{{ version }}.tar.gz
-  sha256: df212037a69e8422da5896f93196783e22be947e43b2b445047f2ca2a16feb77
+  sha256: 3e2a8b154d6eae43e5010403f5a0880a98110984b3b36a1de59faf5e3bf7ee0b
 
 build:
   noarch: python
